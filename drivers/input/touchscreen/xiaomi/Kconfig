@@ -1,3 +1,4 @@
+source "drivers/input/touchscreen/xiaomi/xiaomi_touch/Kconfig"
 source "drivers/input/touchscreen/xiaomi/fts_521/Kconfig"
 source "drivers/input/touchscreen/xiaomi/goodix_driver_gt9886/Kconfig"
 source "drivers/input/touchscreen/xiaomi/nt36523/Kconfig"
