@@ -43,7 +43,7 @@
 #endif
 #include <linux/backlight.h>
 #ifdef CONFIG_TOUCHSCREEN_XIAOMI_TOUCHFEATURE
-#include "../xiaomi/xiaomi_touch.h"
+#include "../xiaomi_touch/xiaomi_touch.h"
 #endif
 #include "test_core/test_param_init.h"
 

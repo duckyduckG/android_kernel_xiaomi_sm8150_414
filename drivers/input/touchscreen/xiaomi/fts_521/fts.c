@@ -69,7 +69,7 @@
 #include <linux/input/mt.h>
 #endif
 #ifdef CONFIG_TOUCHSCREEN_XIAOMI_TOUCHFEATURE
-#include "../xiaomi/xiaomi_touch.h"
+#include "../xiaomi_touch/xiaomi_touch.h"
 #endif
 #include "fts.h"
 #include "fts_lib/ftsCompensation.h"

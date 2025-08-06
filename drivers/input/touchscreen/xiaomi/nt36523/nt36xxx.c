@@ -46,7 +46,7 @@
 #endif /* #if NVT_TOUCH_ESD_PROTECT */
 
 #ifdef CONFIG_TOUCHSCREEN_XIAOMI_TOUCHFEATURE
-#include "../xiaomi/xiaomi_touch.h"
+#include "../xiaomi_touch/xiaomi_touch.h"
 #endif
 
 #if WAKEUP_GESTURE && defined(CONFIG_TOUCHSCREEN_COMMON)
