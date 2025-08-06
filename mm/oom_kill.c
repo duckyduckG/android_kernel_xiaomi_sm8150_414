@@ -542,7 +542,7 @@ static bool oom_reap_task_mm(struct task_struct *tsk, struct mm_struct *mm)
 
 	__oom_reap_task_mm(mm);
 
-	pr_info("oom_reaper: reaped process %d (%s), now anon-rss:%lukB, file-rss:%lukB, shmem-rss:%lukB\n",
+	pr_debug("oom_reaper: reaped process %d (%s), now anon-rss:%lukB, file-rss:%lukB, shmem-rss:%lukB\n",
 			task_pid_nr(tsk), tsk->comm,
 			K(get_mm_counter(mm, MM_ANONPAGES)),
 			K(get_mm_counter(mm, MM_FILEPAGES)),
@@ -1120,7 +1120,7 @@ void dump_killed_info(struct task_struct *selected)
 {
 	int selected_tasksize = get_mm_rss(selected->mm);
 
-	pr_info_ratelimited("Killing '%s' (%d), adj %hd,\n"
+	pr_debug_ratelimited("Killing '%s' (%d), adj %hd,\n"
 			"   to free %ldkB on behalf of '%s' (%d)\n"
 			"   Free CMA is %ldkB\n"
 			"   Total reserve is %ldkB\n"
