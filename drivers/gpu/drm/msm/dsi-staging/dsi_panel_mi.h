@@ -1,5 +1,6 @@
 /*
  * Copyright (c) 2016-2018, The Linux Foundation. All rights reserved.
+ * Copyright (C) 2021 XiaoMi, Inc.
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License version 2 and
@@ -37,6 +38,7 @@ enum DISPPARAM_MODE {
 	DISPPARAM_PAPERMODE6 = 0xB,
 	DISPPARAM_PAPERMODE7 = 0xC,
 	DISPPARAM_WHITEPOINT_XY = 0xE,
+	DISPPARAM_MAX_LUMINANCE_READ   = 0xF,
 	DISPPARAM_CE_ON = 0x10,
 	DISPPARAM_CE_OFF = 0xF0,
 	DISPPARAM_CABCUI_ON = 0x100,
@@ -47,6 +49,7 @@ enum DISPPARAM_MODE {
 	DISPPARAM_SKIN_CE_CABCSTILL_ON = 0x600,
 	DISPPARAM_SKIN_CE_CABCMOVIE_ON = 0x700,
 	DISPPARAM_SKIN_CE_CABC_OFF = 0x800,
+	DISPPARAM_ESD_ON = 0x900,
 	DISPPARAM_DIMMING_OFF = 0xE00,
 	DISPPARAM_DIMMING = 0xF00,
 	DISPPARAM_ACL_L1 = 0x1000,
@@ -82,5 +85,7 @@ enum DISPPARAM_MODE {
 };
 
 static int panel_disp_param_send_lock(struct dsi_panel *panel, int param);
-
+static void handle_dsi_read_data(struct dsi_panel *mi_panel, struct dsi_read_config *read_config);
+static ssize_t dsi_panel_xy_coordinate_read(struct dsi_panel *panel);
+static ssize_t dsi_panel_max_luminance_read(struct dsi_panel *panel);
 #endif /* _DSI_PANEL_MI_H_ */
