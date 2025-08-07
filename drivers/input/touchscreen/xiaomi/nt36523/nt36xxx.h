@@ -146,10 +146,12 @@ struct nvt_ts_data {
 	struct notifier_block pen_charge_state_notifier;
 	uint16_t addr;
 	int8_t phys[32];
+#if defined(CONFIG_FB)
 #ifdef CONFIG_DRM
 	struct notifier_block drm_notif;
-#elif defined(CONFIG_FB)
+#else
 	struct notifier_block fb_notif;
+#endif
 #elif defined(CONFIG_HAS_EARLYSUSPEND)
 	struct early_suspend early_suspend;
 #endif
