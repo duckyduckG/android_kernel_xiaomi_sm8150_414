@@ -1,4 +1,4 @@
-/* Copyright (c) 2018-2020, The Linux Foundation. All rights reserved.
+/* Copyright (c) 2018, The Linux Foundation. All rights reserved.
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License version 2 and
@@ -74,10 +74,10 @@ csiphy_reg_t csiphy_2ph_v1_1_reg[MAX_LANES][MAX_SETTINGS_PER_LANE] = {
 		{0x0038, 0xFE, 0x00, CSIPHY_DEFAULT_PARAMS},
 		{0x0060, 0x00, 0x00, CSIPHY_DEFAULT_PARAMS},
 		{0x0064, 0x7F, 0x00, CSIPHY_DEFAULT_PARAMS},
-		{0x0, 0x00, 0x00, CSIPHY_DNP_PARAMS},
-		{0x0, 0x00, 0x00, CSIPHY_DNP_PARAMS},
-		{0x0, 0x00, 0x00, CSIPHY_DNP_PARAMS},
-		{0x0, 0x00, 0x00, CSIPHY_DNP_PARAMS},
+		{0x0000, 0x00, 0x00, CSIPHY_DNP_PARAMS},
+		{0x0000, 0x00, 0x00, CSIPHY_DNP_PARAMS},
+		{0x0000, 0x00, 0x00, CSIPHY_DNP_PARAMS},
+		{0x0000, 0x00, 0x00, CSIPHY_DNP_PARAMS},
 	},
 	{
 		{0x0704, 0x0C, 0x00, CSIPHY_DEFAULT_PARAMS},
@@ -94,10 +94,10 @@ csiphy_reg_t csiphy_2ph_v1_1_reg[MAX_LANES][MAX_SETTINGS_PER_LANE] = {
 		{0x0738, 0x1F, 0x00, CSIPHY_DEFAULT_PARAMS},
 		{0x0760, 0x00, 0x00, CSIPHY_DEFAULT_PARAMS},
 		{0x0764, 0x7F, 0x00, CSIPHY_DEFAULT_PARAMS},
-		{0x0, 0x00, 0x00, CSIPHY_DNP_PARAMS},
-		{0x0, 0x00, 0x00, CSIPHY_DNP_PARAMS},
-		{0x0, 0x00, 0x00, CSIPHY_DNP_PARAMS},
-		{0x0, 0x00, 0x00, CSIPHY_DNP_PARAMS},
+		{0x0000, 0x00, 0x00, CSIPHY_DNP_PARAMS},
+		{0x0000, 0x00, 0x00, CSIPHY_DNP_PARAMS},
+		{0x0000, 0x00, 0x00, CSIPHY_DNP_PARAMS},
+		{0x0000, 0x00, 0x00, CSIPHY_DNP_PARAMS},
 	},
 	{
 		{0x0204, 0x0C, 0x00, CSIPHY_DEFAULT_PARAMS},
@@ -114,10 +114,10 @@ csiphy_reg_t csiphy_2ph_v1_1_reg[MAX_LANES][MAX_SETTINGS_PER_LANE] = {
 		{0x0238, 0xFE, 0x00, CSIPHY_DEFAULT_PARAMS},
 		{0x0260, 0x00, 0x00, CSIPHY_DEFAULT_PARAMS},
 		{0x0264, 0x7F, 0x00, CSIPHY_DEFAULT_PARAMS},
-		{0x0, 0x00, 0x00, CSIPHY_DNP_PARAMS},
-		{0x0, 0x00, 0x00, CSIPHY_DNP_PARAMS},
-		{0x0, 0x00, 0x00, CSIPHY_DNP_PARAMS},
-		{0x0, 0x00, 0x00, CSIPHY_DNP_PARAMS},
+		{0x0000, 0x00, 0x00, CSIPHY_DNP_PARAMS},
+		{0x0000, 0x00, 0x00, CSIPHY_DNP_PARAMS},
+		{0x0000, 0x00, 0x00, CSIPHY_DNP_PARAMS},
+		{0x0000, 0x00, 0x00, CSIPHY_DNP_PARAMS},
 	},
 	{
 		{0x0404, 0x0C, 0x00, CSIPHY_DEFAULT_PARAMS},
@@ -134,10 +134,10 @@ csiphy_reg_t csiphy_2ph_v1_1_reg[MAX_LANES][MAX_SETTINGS_PER_LANE] = {
 		{0x0438, 0xFE, 0x00, CSIPHY_DEFAULT_PARAMS},
 		{0x0460, 0x00, 0x00, CSIPHY_DEFAULT_PARAMS},
 		{0x0464, 0x7F, 0x00, CSIPHY_DEFAULT_PARAMS},
-		{0x0, 0x00, 0x00, CSIPHY_DNP_PARAMS},
-		{0x0, 0x00, 0x00, CSIPHY_DNP_PARAMS},
-		{0x0, 0x00, 0x00, CSIPHY_DNP_PARAMS},
-		{0x0, 0x00, 0x00, CSIPHY_DNP_PARAMS},
+		{0x0000, 0x00, 0x00, CSIPHY_DNP_PARAMS},
+		{0x0000, 0x00, 0x00, CSIPHY_DNP_PARAMS},
+		{0x0000, 0x00, 0x00, CSIPHY_DNP_PARAMS},
+		{0x0000, 0x00, 0x00, CSIPHY_DNP_PARAMS},
 	},
 	{
 		{0x0604, 0x0C, 0x00, CSIPHY_DEFAULT_PARAMS},
@@ -154,10 +154,10 @@ csiphy_reg_t csiphy_2ph_v1_1_reg[MAX_LANES][MAX_SETTINGS_PER_LANE] = {
 		{0x0638, 0xFE, 0x00, CSIPHY_DEFAULT_PARAMS},
 		{0x0660, 0x00, 0x00, CSIPHY_DEFAULT_PARAMS},
 		{0x0664, 0x7F, 0x00, CSIPHY_DEFAULT_PARAMS},
-		{0x0, 0x00, 0x00, CSIPHY_DNP_PARAMS},
-		{0x0, 0x00, 0x00, CSIPHY_DNP_PARAMS},
-		{0x0, 0x00, 0x00, CSIPHY_DNP_PARAMS},
-		{0x0, 0x00, 0x00, CSIPHY_DNP_PARAMS},
+		{0x0000, 0x00, 0x00, CSIPHY_DNP_PARAMS},
+		{0x0000, 0x00, 0x00, CSIPHY_DNP_PARAMS},
+		{0x0000, 0x00, 0x00, CSIPHY_DNP_PARAMS},
+		{0x0000, 0x00, 0x00, CSIPHY_DNP_PARAMS},
 	},
 };
 
@@ -182,8 +182,8 @@ struct csiphy_reg_t
 		{0x0038, 0xFE, 0x00, CSIPHY_DEFAULT_PARAMS},
 		{0x0060, 0x00, 0x00, CSIPHY_DEFAULT_PARAMS},
 		{0x0064, 0x7F, 0x00, CSIPHY_DEFAULT_PARAMS},
-		{0x0, 0x00, 0x00, CSIPHY_DNP_PARAMS},
-		{0x0, 0x00, 0x00, CSIPHY_DNP_PARAMS},
+		{0x0000, 0x00, 0x00, CSIPHY_DNP_PARAMS},
+		{0x0000, 0x00, 0x00, CSIPHY_DNP_PARAMS},
 	},
 	{
 		{0x0724, 0x00, 0x00, CSIPHY_DNP_PARAMS},
@@ -204,8 +204,8 @@ struct csiphy_reg_t
 		{0x0738, 0x1F, 0x00, CSIPHY_DEFAULT_PARAMS},
 		{0x0760, 0x00, 0x00, CSIPHY_DEFAULT_PARAMS},
 		{0x0764, 0x7F, 0x00, CSIPHY_DEFAULT_PARAMS},
-		{0x0, 0x00, 0x00, CSIPHY_DNP_PARAMS},
-		{0x0, 0x00, 0x00, CSIPHY_DNP_PARAMS},
+		{0x0000, 0x00, 0x00, CSIPHY_DNP_PARAMS},
+		{0x0000, 0x00, 0x00, CSIPHY_DNP_PARAMS},
 	},
 	{
 		{0x0224, 0x00, 0x00, CSIPHY_DNP_PARAMS},
@@ -226,8 +226,8 @@ struct csiphy_reg_t
 		{0x0238, 0xFE, 0x00, CSIPHY_DEFAULT_PARAMS},
 		{0x0260, 0x00, 0x00, CSIPHY_DEFAULT_PARAMS},
 		{0x0264, 0x7F, 0x00, CSIPHY_DEFAULT_PARAMS},
-		{0x0, 0x00, 0x00, CSIPHY_DNP_PARAMS},
-		{0x0, 0x00, 0x00, CSIPHY_DNP_PARAMS},
+		{0x0000, 0x00, 0x00, CSIPHY_DNP_PARAMS},
+		{0x0000, 0x00, 0x00, CSIPHY_DNP_PARAMS},
 	},
 	{
 		{0x0424, 0x00, 0x00, CSIPHY_DNP_PARAMS},
@@ -249,7 +249,7 @@ struct csiphy_reg_t
 		{0x0438, 0xFE, 0x00, CSIPHY_DEFAULT_PARAMS},
 		{0x0460, 0x00, 0x00, CSIPHY_DEFAULT_PARAMS},
 		{0x0464, 0x7F, 0x00, CSIPHY_DEFAULT_PARAMS},
-		{0x0, 0x00, 0x00, CSIPHY_DNP_PARAMS},
+		{0x0000, 0x00, 0x00, CSIPHY_DNP_PARAMS},
 	},
 	{
 		{0x0624, 0x01, 0x00, CSIPHY_DEFAULT_PARAMS},
@@ -271,7 +271,7 @@ struct csiphy_reg_t
 		{0x0638, 0x1F, 0x00, CSIPHY_DEFAULT_PARAMS},
 		{0x0660, 0x00, 0x00, CSIPHY_DEFAULT_PARAMS},
 		{0x0664, 0x7F, 0x00, CSIPHY_DEFAULT_PARAMS},
-		{0x0, 0x00, 0x00, CSIPHY_DNP_PARAMS},
+		{0x0000, 0x00, 0x00, CSIPHY_DNP_PARAMS},
 	},
 };
 
@@ -553,33 +553,4 @@ struct csiphy_reg_t
 	},
 };
 
-
-struct data_rate_settings_t data_rate_delta_table_1_1 = {
-	.num_data_rate_settings = 2,
-	.data_rate_settings = {
-		{
-			// data rate <= 2.3 Gsps
-			// max bandwidth = 2.3 * 2.28 * (10**3) Mbps
-			.bandwidth = 5243000000,
-			.data_rate_reg_array_size = 3,
-			.csiphy_data_rate_regs = {
-				{0x09B0, 0x23, 0x00, CSIPHY_DEFAULT_PARAMS},
-				{0x0AB0, 0x23, 0x00, CSIPHY_DEFAULT_PARAMS},
-				{0x0BB0, 0x23, 0x00, CSIPHY_DEFAULT_PARAMS}
-			}
-		},
-		{
-			// 2.3 Gsps <= data rate <= 2.5 Gsps
-			// max bandwidth = 2.5 * 2.28 * (10**3) Mbps
-			.bandwidth = 5700000000,
-			.data_rate_reg_array_size = 3,
-			.csiphy_data_rate_regs = {
-				{0x09B0, 0x22, 0x00, CSIPHY_DEFAULT_PARAMS},
-				{0x0AB0, 0x22, 0x00, CSIPHY_DEFAULT_PARAMS},
-				{0x0BB0, 0x22, 0x00, CSIPHY_DEFAULT_PARAMS}
-			}
-		}
-	}
-};
-
-#endif /* _CAM_CSIPHY_1_1_HWREG_H_ */
+#endif /* _CAM_CSIPHY_D5_0_HWREG_H_ */
